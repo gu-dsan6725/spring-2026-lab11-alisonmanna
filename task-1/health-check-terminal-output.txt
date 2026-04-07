@@ -1,0 +1,6 @@
+(a2a-lab) MacBook-Air-9:spring-2026-lab11-alisonmanna alisonmanna$ curl http://127.0.0.1:7861/health
+{"status":"healthy","service":"registry-stub"}
+(a2a-lab) MacBook-Air-9:spring-2026-lab11-al0001/ping alisonmanna$ curl http://127.0.0.1:10001/ping
+{"status":"healthy"}
+(a2a-lab) MacBook-Air-9:spring-2026-lab11-alisonmanna alisonmanna$ curl http://127.0.0.1:10002/ping
+{"status":"healthy"}

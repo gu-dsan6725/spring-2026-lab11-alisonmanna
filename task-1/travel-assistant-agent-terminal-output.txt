@@ -1,0 +1,14 @@
+(a2a-lab) MacBook-Air-9:spring-2026-lab11-alisonmanna alisonmanna$ uv run python src/travel-assistant-agent/server.py
+2026-04-07 11:03:29,787,p48787,{env_settings.py:38},INFO,EnvSettings initialized: agent_name=travel-assistant, version=1.0.0
+2026-04-07 11:03:29,788,p48787,{server.py:108},INFO,Strands' integration with A2A is experimental. Be aware of frequent breaking changes.
+2026-04-07 11:03:29,801,p48787,{server.py:166},INFO,Starting Travel Assistant Agent server
+INFO:     Started server process [48787]
+INFO:     Waiting for application startup.
+2026-04-07 11:03:29,818,p48787,{database.py:79},INFO,Initializing FlightDatabaseManager with db_path: ./data/flights.db
+2026-04-07 11:03:29,819,p48787,{server.py:47},INFO,Travel Assistant Agent starting up
+2026-04-07 11:03:29,819,p48787,{server.py:48},INFO,Agent URL: http://127.0.0.1:10001/
+2026-04-07 11:03:29,819,p48787,{server.py:49},INFO,Listening on 127.0.0.1:10001
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:10001 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54353 - "GET /ping HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54374 - "GET /.well-known/agent-card.json HTTP/1.1" 200 OK

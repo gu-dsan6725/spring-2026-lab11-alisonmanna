@@ -1,0 +1,8 @@
+(a2a-lab) MacBook-Air-9:spring-2026-lab11-alisonmanna alisonmanna$ uv run python src/registry-stub/server.py
+2026-04-07 11:02:35,552,p48595,{server.py:115},INFO,Starting Registry Stub on 127.0.0.1:7861
+INFO:     Started server process [48595]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:7861 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54332 - "GET /healt HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54345 - "GET /health HTTP/1.1" 200 OK
